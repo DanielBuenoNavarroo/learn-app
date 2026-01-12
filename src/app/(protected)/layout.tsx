@@ -3,7 +3,7 @@ const layout = ({
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
-  const loading = true;
+  const loading = false;
 
   if (loading) {
     return (

@@ -1,3 +1,4 @@
+import Kanji from "@/components/alphabets/Kanji";
 import MainSidebar from "@/components/MainSidebar";
 import { ModeToggle } from "@/components/ModeToggle";
 
@@ -10,7 +11,7 @@ export default function Home() {
       </header>
       <main className="flex-1 grid grid-cols-[180px_auto]">
         <MainSidebar />
-        Hola
+        <Kanji />
       </main>
     </div>
   );
